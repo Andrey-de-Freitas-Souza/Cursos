@@ -1,0 +1,5 @@
+nome = str(input('qual é o seu nome? '))
+print('prazer em te conhecer {:=^20}!'.format(nome))
+n1 = int(input('{} digite um valor:'.format(nome)))
+n2 = int(input('muito bem {} agora digite outro valor:'.format(nome)))
+print('a soma desses dois números vale {}'.format(n1+n2))
